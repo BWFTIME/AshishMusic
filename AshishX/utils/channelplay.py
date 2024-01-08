@@ -1,5 +1,5 @@
-from VenomX import app
-from VenomX.utils.database import get_cmode
+from AshishX import app
+from AshishX.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

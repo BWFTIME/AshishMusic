@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from VenomX import LOGGER, YouTube, app
-from VenomX.misc import db
-from VenomX.utils.database import (
+from AshishX import LOGGER, YouTube, app
+from AshishX.misc import db
+from AshishX.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from VenomX.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from VenomX.utils.exceptions import AssistantErr
-from VenomX.utils.formatters import check_duration, seconds_to_min, speed_converter
-from VenomX.utils.inline.play import stream_markup
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.thumbnails import get_thumb
+from AshishX.utils.exceptions import AssistantErr
+from AshishX.utils.formatters import check_duration, seconds_to_min, speed_converter
+from AshishX.utils.inline.play import stream_markup
+from AshishX.utils.stream.autoclear import auto_clean
+from AshishX.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -51,7 +51,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="VenomXAss1",
+            name="AshishXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -61,7 +61,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="VenomXAss2",
+            name="AshishXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -71,7 +71,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="VenomXAss3",
+            name="AshishXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="VenomXAss4",
+            name="AshishXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -91,7 +91,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="VenomXAss5",
+            name="AshishXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
