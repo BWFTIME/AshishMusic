@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/Ashishbolteop/AshishMusic/stargazers"> <img src="https://img.shields.io/github/stars/Ashishbolteop/AshishMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/BWFTIME/AshishXMusic"> <img src="https://img.shields.io/github/stars/Ashishbolteop/AshishMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/Ashishbolteop/AshishMusic/network/members"> <img src="https://img.shields.io/github/forks/Ashishbolteop/AshishMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Ashishbolteop/AshishMusic/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/BWFTIME/AshishXMusic/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/Ashishbolteop/AshishMusic/commits/Ashishbolteop"> <img src="https://img.shields.io/github/last-commit/Ashishbolteop/AshishMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="[https://github.com/Ashishbolteop/AshishMusic](https://github.com/BWFTIME/AshishXMusic)/commits/Ashishbolteop"> <img src="https://img.shields.io/github/last-commit/Ashishbolteop/AshishMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 
