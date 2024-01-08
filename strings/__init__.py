@@ -10,7 +10,7 @@ languages_present = {}
 def get_string(lang: str):
     return languages[lang]
 
-
+ 
 for filename in os.listdir(r"./strings/langs/"):
     if "en" not in languages:
         languages["en"] = yaml.safe_load(
