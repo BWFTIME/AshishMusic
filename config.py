@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "23392712"))
+API_HASH = getenv("API_HASH", "7cb236b197b25c243fa83e7e0173d0e6")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -24,8 +24,8 @@ SONG_DOWNLOAD_DURATION = int(
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-# Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6306738739"))
+# Get this value from @BEWAFAMUSICBOT on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", "6052880487"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -66,15 +66,16 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @Venom_string_robot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+# Get your pyrogram v2 session from @STRINGKINGBOT on Telegram
+STRING1 = getenv("STRING_SESSION", "BQFdL80ArQ4Iz4TQX_8Z7flYObH85uD9BGnHeEFpFqd1qZM9Df7pyLwI6mXHKJZLzbSoEoyaJxk0j-pWJRGT2aDbRY3uF_veK7p_3u-ZAOv8wlXYNU0wAW05fGHsh1nXLCtqDcdg_FXhlsgltZXWjl_P2rX5O9kYXrGToafUIQip5ucmZeknLFsbS796a6ohVdn5lA24kU_P2L4B-gAHqLSCNMHFtlhgwMw-9OkA-yAsljU6TgTP4q2H0pUAkSyqNG-MsbAfEaNXywNTmp-9uG2vln0lWVYl3BqTFESreN11TH3jU5j3-xGPPnVVgObnEt-sofqWAvKgUZJxxuLpIOn-3YXN1QAAAAFox6BnAA 
+")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-BANNED_USERS = filters.user()
+BANNED_USERS = filters.user(Bwf)
 adminlist = {}
 lyrical = {}
 votemode = {}
